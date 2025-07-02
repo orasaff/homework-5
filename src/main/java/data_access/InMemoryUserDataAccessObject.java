@@ -41,4 +41,12 @@ public class InMemoryUserDataAccessObject implements SignupUserDataAccessInterfa
         users.put(user.getName(), user);
     }
 
+    /**
+     * Returns the user with the given username.
+     * @param name the name
+     */
+    public void setCurrentUser(String name) {
+        this.currentUser = name;
+    }
+
 }
