@@ -111,4 +111,8 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
     public void setCurrentUser(String name) {
 
     }
+
+    public String getCurrentUser() {
+        return null;
+    }
 }
