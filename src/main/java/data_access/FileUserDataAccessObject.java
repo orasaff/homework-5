@@ -103,4 +103,12 @@ public class FileUserDataAccessObject implements SignupUserDataAccessInterface,
         accounts.put(user.getName(), user);
         save();
     }
+
+    /**
+     * Returns the user with the given username.
+     * @param name the name
+     */
+    public void setCurrentUser(String name) {
+
+    }
 }

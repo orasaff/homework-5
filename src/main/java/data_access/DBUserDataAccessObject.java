@@ -151,4 +151,12 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
             throw new RuntimeException(ex);
         }
     }
+
+    /**
+     * Returns the user with the given username.
+     * @param name the name
+     */
+    public void setCurrentUser(String name) {
+
+    }
 }
